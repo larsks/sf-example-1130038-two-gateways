@@ -1,0 +1,6 @@
+server sh server/config.sh
+gw1 sh gw1/config.sh
+gw2 sh gw2/config.sh
+
+server python -m http.server 80 &
+
